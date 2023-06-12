@@ -1,0 +1,56 @@
+
+body{
+    background-color:darkcyan;
+}
+.brown-stage{
+    height:90px;
+    width:200px;
+    margin-left:605px;
+    object-fit:cover;
+    margin-bottom:0;
+}
+.row1{
+    display:block;
+ 
+}
+.row{
+    margin-top:10px
+}
+
+.seat-button{
+    width:36px;
+    height:25px;
+    border-radius:30px;
+    border:none;
+    background-color:white;
+    
+}
+.seat-button:hover{
+    cursor:pointer;
+}
+.clicked{
+    background-color:yellow;
+}
+
+.seat-r1c1,.seat-r1c2,.seat-r1c3{
+    display:inline-block;
+    margin-top:70px;
+}
+
+.seat-rc1,.seat-rc2,.seat-rc3{
+    display:inline-block;
+}
+.seat-r1c1{
+    margin-left:330px;
+    margin-right:50px;
+}
+.seat-r1c2{
+    margin-right:30px;
+}
+.seat-rc1{
+    margin-left:330px;
+    margin-right:50px;
+}
+.seat-rc2{
+    margin-right:30px;
+}
